@@ -1,0 +1,22 @@
+# Installed into ForecastAPI/python-sdk as .github/workflows/release.yml by generate.sh.
+# Publishes to PyPI when a v* tag is pushed, using Trusted Publishing (OIDC) —
+# no stored token. Configure the trusted publisher once on the PyPI project:
+# https://docs.pypi.org/trusted-publishers/  (workflow: release.yml, this repo).
+name: Release to PyPI
+on:
+  push:
+    tags: ['v*']
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write   # OIDC token for Trusted Publishing
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install build
+      - run: python -m build
+      - uses: pypa/gh-action-pypi-publish@release/v1
