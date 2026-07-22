@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com-alvarez01337/alvarez01337/python-sdk"
+Repository = "https://github.com/ForecastAPI/python-sdk"
 
 [tool.poetry]
 requires-poetry = ">=2.0"
