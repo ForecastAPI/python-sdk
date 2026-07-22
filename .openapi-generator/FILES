@@ -45,8 +45,6 @@ docs/CreateInventoryPlan400Response.md
 docs/CreateInventoryPlan500Response.md
 docs/CreateProductInsights400Response.md
 docs/CreateTrafficForecast500Response.md
-docs/DefaultApi.md
-docs/DeprecatedV1404Response.md
 docs/DetectAnomalies422Response.md
 docs/DetectAnomalies422ResponseOneOf.md
 docs/DetectAnomalies500Response.md
@@ -131,7 +129,6 @@ forecastapi/api/__init__.py
 forecastapi/api/analysis_api.py
 forecastapi/api/anomaly_detection_api.py
 forecastapi/api/batch_forecasting_api.py
-forecastapi/api/default_api.py
 forecastapi/api/forecasting_api.py
 forecastapi/api/grouped_forecasting_api.py
 forecastapi/api/health_api.py
@@ -182,7 +179,6 @@ forecastapi/models/create_inventory_plan400_response.py
 forecastapi/models/create_inventory_plan500_response.py
 forecastapi/models/create_product_insights400_response.py
 forecastapi/models/create_traffic_forecast500_response.py
-forecastapi/models/deprecated_v1404_response.py
 forecastapi/models/detect_anomalies422_response.py
 forecastapi/models/detect_anomalies422_response_one_of.py
 forecastapi/models/detect_anomalies500_response.py

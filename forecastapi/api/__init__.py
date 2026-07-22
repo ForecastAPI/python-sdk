@@ -10,5 +10,4 @@ from forecastapi.api.health_api import HealthApi
 from forecastapi.api.inventory_planning_api import InventoryPlanningApi
 from forecastapi.api.product_insights_api import ProductInsightsApi
 from forecastapi.api.traffic_forecasting_api import TrafficForecastingApi
-from forecastapi.api.default_api import DefaultApi
 
