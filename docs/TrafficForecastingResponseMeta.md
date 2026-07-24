@@ -6,6 +6,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **timing** | [**TrafficForecastingResponseMetaTiming**](TrafficForecastingResponseMetaTiming.md) |  | [optional] 
+**auto_selection** | [**AutoSelection**](AutoSelection.md) |  | [optional] 
 
 ## Example
 

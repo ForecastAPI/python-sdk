@@ -27,6 +27,8 @@ docs/AnomalyDetectionResponseResult.md
 docs/AnomalyDetectionResponseResultAnalysis.md
 docs/AnomalyDetectionResponseResultAnalysisDetectionSummary.md
 docs/AnomalyDetectionResponseResultAnomaliesInner.md
+docs/AutoSelection.md
+docs/AutoSelectionScoresValue.md
 docs/BatchForecastAccepted.md
 docs/BatchForecastRequest.md
 docs/BatchForecastSeries.md
@@ -162,6 +164,8 @@ forecastapi/models/anomaly_detection_response_result.py
 forecastapi/models/anomaly_detection_response_result_analysis.py
 forecastapi/models/anomaly_detection_response_result_analysis_detection_summary.py
 forecastapi/models/anomaly_detection_response_result_anomalies_inner.py
+forecastapi/models/auto_selection.py
+forecastapi/models/auto_selection_scores_value.py
 forecastapi/models/batch_forecast_accepted.py
 forecastapi/models/batch_forecast_request.py
 forecastapi/models/batch_forecast_series.py
@@ -285,6 +289,8 @@ test/test_anomaly_detection_response_result.py
 test/test_anomaly_detection_response_result_analysis.py
 test/test_anomaly_detection_response_result_analysis_detection_summary.py
 test/test_anomaly_detection_response_result_anomalies_inner.py
+test/test_auto_selection.py
+test/test_auto_selection_scores_value.py
 test/test_batch_forecast_accepted.py
 test/test_batch_forecast_request.py
 test/test_batch_forecast_series.py

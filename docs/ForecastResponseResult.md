@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **identifier** | **str** | Echoes the series identifier from the request | [optional] 
 **tenant_context** | **str** |  | [optional] 
 **forecasts** | [**List[ForecastPeriod]**](ForecastPeriod.md) | One row per forecast period. Each period carries its own bounds, and they widen with horizon. | [optional] 
-**model_info** | **Dict[str, object]** | The selected model (&#x60;best_model&#x60;), the models evaluated, the interval source, and per-model back-testing scores (smape/mape/mase) when validation runs. Also carries &#x60;bounds_transform&#x60; when &#x60;value_bounds&#x60; was sent, and &#x60;quantile_levels&#x60; when a fan was requested.  | [optional] 
+**model_info** | **Dict[str, object]** | The selected model (&#x60;best_model&#x60;), the models evaluated, the interval source, and per-model back-testing scores (smape/mape/mase) when validation runs. Also carries &#x60;bounds_transform&#x60; when &#x60;value_bounds&#x60; was sent, &#x60;quantile_levels&#x60; when a fan was requested, and &#x60;auto_selection&#x60; (see the AutoSelection schema) when &#x60;model: auto&#x60; was requested.  | [optional] 
 
 ## Example
 
